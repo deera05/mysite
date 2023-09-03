@@ -312,5 +312,10 @@
       background-color: #555;
     }
 
-
+    @media only screen and (max-width: 900px){
+      .top-sec, .card-1, .b-card, .b-card2, .about-c, .about-2, .card-ex, .card-eve, .sec-1, .item-1, .item-4{
+        width: 200%;
+        min-width: 1500px;
+      }
+    }
   
