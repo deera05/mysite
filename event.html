@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="d-flex flex-row top-sec">
+            <img src="iete logo.png" class="image"/>
+            <h1 class="heading">IETE</h1>
+            <p class="para">The Institution of Electronics and Telecommunication Engineers, Chennai</p>
+            <ul class="list-style d-flex flex-row">
+                <li class="pad">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="pad">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="pad">
+                    <a href="ex-com.html">Executive
+                      Community  
+                    </a>
+                </li>    
+                <li class="pad">
+                    <a href="event.html">Events</a>
+                </li>
+                <li class="pad">
+                    <a href="member.html">Membership</a>
+                </li>
+                <li class="pad">
+                    <div class="dropdown">
+                        <button class="dropbtn">Chencon</button>
+                        <div class="dropdown-content">
+                            <a href="http://www.ietechennai.in/chencon.html">2022</a>
+                            <a href="http://www.ietechennai.in/assets/pdf/chencon2021_proceedings.pdf" target="_blank">2021</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="pad">
+                    <div class="dropdown">
+                        <button class="dropbtn">Newsletter</button>
+                        <div class="dropdown-content">
+                            <a href="http://www.ietechennai.in/assets/pdf/chenlink1_3.pdf" target="_blank">Vol.1, No.3</a>
+                            <a href="http://www.ietechennai.in/assets/pdf/chenlink1_2.pdf" target="_blank">Vol.1, No.2</a>
+                            <a href="http://www.ietechennai.in/assets/pdf/chenlink1_1.pdf" target="_blank">Vol.1, No.1</a>
+                        </div>
+                    </div>        
+                </li>
+                <li class="pad">
+                    <a href="http://www.ietechennai.in/contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>  
+        <div class="card-eve">
+            <div class="box-car d-flex flex-column align-items-center">
+            <h1 class="heading-3">Webinar on IoT Security(WISE-2022)</h1>
+            <p class="para-4">on 30th May, 2022<br/>SETS Chennai & C-DAC Hyderabad in collaboration with ISEA</p>
+            <p class="para-4">All interested members are requested to register at the following link to participate in the webinar</p>
+            <button class="dropbtn"><a href="https://infosecawareness.in/wise2022">Weblink</a></button>
+            <p class="para-4">Participation certificate will be issued to all the registered participants after attending all the sessions.</p>
+            </div>
+        </div>
+        <div class="b-card">
+            <div class="d-flex flex-row padd">
+            <div>
+                <h1 class="heading-1">IETE Chennai</h1>
+                <p class="heading-1">IETE Chennai centre, No: 37, Tamil<br/>Nadu 600086<br/>Conran Smith Road Entrance Peters<br/>Road,<br/>Gopalapuram,Chennai,</p>
+                <p class="heading-1">Phone: 044 2835 0773<br/>Email: ietechennai@gmail.com</p>
+            </div>
+            <div>
+                <h4 class="heading-2">Useful Links</h4>
+                <ul class="list-style-2">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="ex-com.html">Committee</a>
+                    </li>
+                    <li>
+                        <a href="event.html">Events</a>
+                    </li>
+                    <li>
+                        <a href="http://www.ietechennai.in/contact.html">Contacts</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="b-card2">
+            <h8 class="heading-1">© Copyright IETE Chennai. All Rights Reserved</h8>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+        <script>
+            let mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+    </body>    
+</html>
